@@ -7,15 +7,16 @@
 .main {
   width: 960px;
   margin: 50px auto;
-  background-color: pink;
 }
 
 .item-list {
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
 .item {
   padding: 20px;
+  text-align: 10px;
   list-style: none;
 }
 
@@ -37,7 +38,7 @@
 }
 
 .box:first-child,
-.boxnth-child(5),
+.box:nth-child(5),
 .box:last-child {
   background-color: #ff8c00;
 }
